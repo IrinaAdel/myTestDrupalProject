@@ -1,0 +1,8 @@
+test1.secondpage:
+  path: '/secondpage'
+  defaults:
+    _controller: '\Drupal\test1\Controller\SecondPageController::content'
+    _title: 'Hello!'
+  requirements:
+    _permission: 'access content'
+    

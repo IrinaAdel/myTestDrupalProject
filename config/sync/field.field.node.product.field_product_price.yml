@@ -1,0 +1,25 @@
+uuid: 7a53b780-5af8-42c5-951a-0329c3bee7ad
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_price
+    - node.type.product
+id: node.product.field_product_price
+field_name: field_product_price
+entity_type: node
+bundle: product
+label: 'Цена товара'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: руб.
+  suffix: ''
+field_type: integer

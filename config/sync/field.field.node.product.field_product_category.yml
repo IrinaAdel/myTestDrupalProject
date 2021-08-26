@@ -1,0 +1,29 @@
+uuid: 99ff115d-8929-4179-a824-7402cb8e5e94
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_category
+    - node.type.product
+    - taxonomy.vocabulary.catalog
+id: node.product.field_product_category
+field_name: field_product_category
+entity_type: node
+bundle: product
+label: 'Категория товара'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      catalog: catalog
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

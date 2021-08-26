@@ -1,0 +1,24 @@
+uuid: 45d23c1c-bd99-4eba-893a-900cf0f43b35
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.katalog_tovarov
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__katalog_tovarov_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:katalog_tovarov-block_1'
+settings:
+  id: 'views_block:katalog_tovarov-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

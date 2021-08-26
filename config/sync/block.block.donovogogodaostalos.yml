@@ -1,0 +1,20 @@
+uuid: c73e801f-4aeb-4d71-a4e1-c4f4066e7a45
+langcode: ru
+status: true
+dependencies:
+  module:
+    - test1
+  theme:
+    - bartik
+id: donovogogodaostalos
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: test1_second_block_block
+settings:
+  id: test1_second_block_block
+  label: 'До Нового Года осталось'
+  provider: test1
+  label_display: visible
+visibility: {  }

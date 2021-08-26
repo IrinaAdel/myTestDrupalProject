@@ -1,0 +1,5 @@
+name: test1
+description: Test1 module for learning Drupal 8
+type: module
+core: 8.x
+package: test1
