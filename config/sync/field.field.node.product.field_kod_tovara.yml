@@ -1,0 +1,23 @@
+uuid: 2eb3a428-597b-44f0-8df9-e488947e5b07
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kod_tovara
+    - node.type.product
+id: node.product.field_kod_tovara
+field_name: field_kod_tovara
+entity_type: node
+bundle: product
+label: 'Код товара'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

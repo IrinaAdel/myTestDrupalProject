@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.product.body
     - field.field.node.product.field_izobrazhenie_tovara
+    - field.field.node.product.field_kod_tovara
     - field.field.node.product.field_product_category
     - field.field.node.product.field_product_price
     - image.style.thumbnail
@@ -41,6 +42,13 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_kod_tovara:
+    weight: 125
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   field_product_category:
     weight: 123

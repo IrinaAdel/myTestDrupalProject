@@ -1,0 +1,20 @@
+uuid: 6e42addb-52bd-45dc-bd3c-bb521146ffb2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_kod_tovara
+field_name: field_kod_tovara
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

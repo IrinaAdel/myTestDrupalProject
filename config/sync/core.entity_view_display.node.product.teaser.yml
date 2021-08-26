@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.product.body
     - field.field.node.product.field_izobrazhenie_tovara
+    - field.field.node.product.field_kod_tovara
     - field.field.node.product.field_product_category
     - field.field.node.product.field_product_price
     - image.style.medium
@@ -43,5 +44,6 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_kod_tovara: true
   field_product_category: true
   langcode: true
