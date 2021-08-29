@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f98f0d0474aca28d3265440382def09",
+    "content-hash": "0ee2cb8156babdf0f07d11b0f3781d8c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3612,6 +3612,30 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "irinaadel/testform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IrinaAdel/testForm.git",
+                "reference": "cd69e473f3a3da6e1b541ef5961418b112f47344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IrinaAdel/testForm/zipball/cd69e473f3a3da6e1b541ef5961418b112f47344",
+                "reference": "cd69e473f3a3da6e1b541ef5961418b112f47344",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module-custom",
+            "description": "test composer.json file",
+            "homepage": "https://github.com/IrinaAdel/testForm",
+            "support": {
+                "source": "https://github.com/IrinaAdel/testForm/tree/master",
+                "issues": "https://github.com/IrinaAdel/testForm/issues"
+            },
+            "time": "2021-08-27T10:53:47+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -10708,7 +10732,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/views_tree": 15
+        "drupal/views_tree": 15,
+        "irinaadel/testform": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
